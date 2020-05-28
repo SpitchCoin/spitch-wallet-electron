@@ -1,10 +1,10 @@
-## WalletShell - GUI wallet for TurtleCoin.
+## WalletShell - GUI wallet for SpitchCoin.
 
 ![WalletShell Screens](https://i.imgur.com/41Ujq0S.gif "WalletShell Screens")
 
 ### Features:
 
-This wallet contains the basic functions required to manage your TurtleCoin assets:
+This wallet contains the basic functions required to manage your Spitch assets:
 
 * Wallet creation:
   * Create new wallet.
@@ -59,8 +59,8 @@ You need to have `Node.js` and `npm` installed, go to https://nodejs.org and fin
 Once you have Node+npm installed:
 ```
 # assuming you're building it on GNU/Linux
-# first, download turtle-service binary for each platform
-# from TurtleCoin official repo
+# first, download Spitch-service binary for each platform
+# from SpitchCoin official repo
 # https://github.com/SpitchCoin/SpitchCoin/releases
 # extract the Spitch-service executable somewhere
 
@@ -96,6 +96,6 @@ $ npm run dist-mac
 Resulting packages or installer can be found inside `dist/` directory.
 
 ### Porting for another coin
-Please see [this guide](docs/porting.md) if you want to adapt WalletShell to be use for your own TurtleCoin fork.
+Please see [this guide](docs/porting.md) if you want to adapt WalletShell to be use for your own SpitchCoin fork.
 
 ![WalletShell](docs/walletshell.png)
